@@ -5,6 +5,7 @@
     <title>RICROS</title>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @import url(https://fonts.bunny.net/css?family=fira-code:300,400,500,600,700|fira-mono:400,500,700|fira-sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 
@@ -30,6 +31,10 @@
             text-align: center;
             color: lightgray;
             padding: 1em;
+            display: flex;
+            font-size: 0.5em;
+            justify-content: safe center;
+            flex-wrap: wrap;
         }
 
         .name {
@@ -40,6 +45,10 @@
 
         .box {
             margin: 0 auto;
+        }
+
+        .info {
+            padding: 0.25em 1.5em;
         }
     </style>
 </head>
@@ -52,7 +61,11 @@
         </div>
     </main>
     </main>
-    <footer>Codice fiscale: 97948700154 | Numero REA: MI2697777</footer>
+    <footer>
+        <div class="info">Codice fiscale: 97948700154</div>
+        <div class="info">Ragione sociale: RICROS S.s.</div>
+        <div class="info">Numero REA: MI2697777</div>
+    </footer>
 </body>
 
 </html>
